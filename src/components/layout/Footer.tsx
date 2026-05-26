@@ -47,10 +47,6 @@ export default function Footer() {
             Raamanathan
           </span>
         </motion.p>
-
-        <p className="text-slate-dark text-xs font-mono">
-          Design inspired by modern portfolios · © {new Date().getFullYear()}
-        </p>
       </div>
     </footer>
   );
