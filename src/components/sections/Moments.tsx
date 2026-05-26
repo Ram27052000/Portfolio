@@ -6,10 +6,10 @@ import Image from "next/image";
 
 const moments = [
   {
-    title: "Conference Presentation",
+    title: "DevFest Chennai",
     description:
-      "Presented an AI-powered multi-agent project demonstration using GitHub Copilot and AI-assisted workflows during a technical conference session.",
-    tags: ["AI", "GitHub Copilot", "Multi-Agent Systems", "Developer Tools"],
+      "Attended Google Developer Group DevFest Chennai to explore modern web technologies, AI trends, cloud-native development, and developer communities.",
+    tags: ["DevFest", "Google Developer Group", "AI", "Cloud", "Frontend"],
     image: "/images/conference.jpg",
   },
   {
@@ -20,10 +20,10 @@ const moments = [
     image: "/images/anomaly-detection-1.jpg",
   },
   {
-    title: "DevFest Chennai",
+    title: "AI Conference Presentation - Germany",
     description:
-      "Attended Google Developer Group DevFest Chennai to explore modern web technologies, AI trends, cloud-native development, and developer communities.",
-    tags: ["DevFest", "Google Developer Group", "AI", "Cloud", "Frontend"],
+      "Presented an AI-powered multi-agent project demonstration using GitHub Copilot and AI-assisted workflows during a technical conference session in Germany.",
+    tags: ["AI", "GitHub Copilot", "Multi-Agent Systems", "Conference", "Germany"],
     image: "/images/devfest.png",
   },
 ];
