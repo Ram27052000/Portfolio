@@ -95,7 +95,7 @@ export default function About() {
               <div className="absolute inset-0 bg-accent/20 mix-blend-multiply group-hover:bg-transparent transition-all duration-300 z-10" />
               {/* Profile image */}
               <Image
-                src="/images/devfest.png"
+                src="/images/devfest.jpg"
                 alt="Ram Raamanathan"
                 fill
                 className="object-cover"
