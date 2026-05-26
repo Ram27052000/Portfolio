@@ -5,8 +5,11 @@ import { useEffect, useState } from "react";
 export default function CursorGlow() {
   const [position, setPosition] = useState({ x: 0, y: 0 });
   const [isVisible, setIsVisible] = useState(false);
+  const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
+    setIsMounted(true);
+
     const updatePosition = (e: MouseEvent) => {
       setPosition({ x: e.clientX, y: e.clientY });
       setIsVisible(true);
@@ -25,7 +28,8 @@ export default function CursorGlow() {
     };
   }, []);
 
-  if (typeof window === "undefined") return null;
+  // Don't render on server to avoid hydration mismatch
+  if (!isMounted) return null;
 
   return (
     <div
