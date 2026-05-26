@@ -10,7 +10,7 @@ const moments = [
     description:
       "Attended Google Developer Group DevFest Chennai to explore modern web technologies, AI trends, cloud-native development, and developer communities.",
     tags: ["DevFest", "Google Developer Group", "AI", "Cloud", "Frontend"],
-    image: "/images/conference.jpg",
+    image: "/images/conference.png",
   },
   {
     title: "Germany Visit",
@@ -24,7 +24,7 @@ const moments = [
     description:
       "Presented an AI-powered multi-agent project demonstration using GitHub Copilot and AI-assisted workflows during a technical conference session in Germany.",
     tags: ["AI", "GitHub Copilot", "Multi-Agent Systems", "Conference", "Germany"],
-    image: "/images/devfest.png",
+    image: "/images/devfest.jpg",
   },
 ];
 
